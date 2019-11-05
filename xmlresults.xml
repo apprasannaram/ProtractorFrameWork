@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="2" time="10.966">
+ <testsuite name="Demo Calculator Tests" timestamp="2019-11-05T13:05:30" hostname="localhost" time="10.966" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="Demo Calculator Tests" name="addition test" time="10.632" />
+  <testcase classname="Demo Calculator Tests" name="Subtraction test" time="0.329">
+   <failure type="exception" message="Failed: Homepage.clickGo1 is not a function"><![CDATA[TypeError: Homepage.clickGo1 is not a function
+    at UserContext.<anonymous> (C:\projectsprasanna\ProtractorDemo\Tests\Calculator.js:41:18)
+    at C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: Run it("Subtraction test") in control flow
+    at UserContext.<anonymous> (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\projectsprasanna\ProtractorDemo\Tests\Calculator.js:29:5)
+    at addSpecsToSuite (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\projectsprasanna\ProtractorDemo\Tests\Calculator.js:4:1)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
