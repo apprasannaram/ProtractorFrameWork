@@ -19,7 +19,7 @@ describe('Demo Calculator Tests', function () {
         //let result=element(by.cssContainingText('.ng-binding','16'));
         //expect(result.getText()).toEqual('16');
         Homepage.VerifyResult('16');
-        browser.sleep(3500);    
+         browser.sleep(4500);    
 
 
 
