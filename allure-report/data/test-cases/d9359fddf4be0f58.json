@@ -1,0 +1,54 @@
+{
+  "uid" : "d9359fddf4be0f58",
+  "name" : "addition test",
+  "fullName" : "Demo Calculator Tests.addition test",
+  "historyId" : "d4e58a001b3eaa1fbe388f943d2b764d",
+  "time" : {
+    "start" : 1573730940763,
+    "stop" : 1573730949799,
+    "duration" : 9036
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo Calculator Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo Calculator Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "addition test"
+  }, {
+    "name" : "package",
+    "value" : "Demo Calculator Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "79888f97686b4d83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573727034087,
+        "stop" : 1573727043907,
+        "duration" : 9820
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9359fddf4be0f58.json",
+  "parameterValues" : [ ]
+}

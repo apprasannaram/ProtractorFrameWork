@@ -1,0 +1,52 @@
+{
+  "uid" : "dd57b9bf6e201a75",
+  "name" : "Subtraction test",
+  "fullName" : "Demo Calculator Tests.Subtraction test",
+  "historyId" : "ff94fc0d7809b07e9b921173df52d119",
+  "time" : {
+    "start" : 1573730949800,
+    "stop" : 1573730950247,
+    "duration" : 447
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Homepage.clickGo122fdfdf is not a function",
+  "statusTrace" : "TypeError: Homepage.clickGo122fdfdf is not a function\n                    at UserContext.<anonymous> (C:\\projectsprasanna\\ProtractorDemo\\Tests\\Calculator.js:41:18)\n                    at C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n                    at new ManagedPromise (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n                    at ControlFlow.promise (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n                    at schedulerExecute (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n                    at TaskQueue.execute_ (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n                    at C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                From: Task: Run it(\"Subtraction test\") in control flow\n                    at UserContext.<anonymous> (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at runNext (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (C:\\projectsprasanna\\ProtractorDemo\\Tests\\Calculator.js:29:5)\n                    at addSpecsToSuite (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (C:\\Users\\prasannap\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (C:\\projectsprasanna\\ProtractorDemo\\Tests\\Calculator.js:4:1)\n                    at Module._compile (internal/modules/cjs/loader.js:956:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)\n                    at Module.load (internal/modules/cjs/loader.js:812:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo Calculator Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo Calculator Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Subtraction test"
+  }, {
+    "name" : "package",
+    "value" : "Demo Calculator Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dd57b9bf6e201a75.json",
+  "parameterValues" : [ ]
+}

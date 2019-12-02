@@ -38,7 +38,7 @@ describe('Demo Calculator Tests', function () {
         Homepage.enterSecondNumber('13');
 
         //element(by.css('[ng-click="doAddition()"]')).click();
-        Homepage.clickGo122();
+        Homepage.clickGo122fsdfsfsdfdf();
 
         //let result=element(by.cssContainingText('.ng-binding','16'));
         //expect(result.getText()).toEqual('16');

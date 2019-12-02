@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="1" tests="2" time="10.966">
- <testsuite name="Demo Calculator Tests" timestamp="2019-11-05T13:05:30" hostname="localhost" time="10.966" errors="0" tests="2" skipped="0" disabled="0" failures="1">
-  <testcase classname="Demo Calculator Tests" name="addition test" time="10.632" />
-  <testcase classname="Demo Calculator Tests" name="Subtraction test" time="0.329">
-   <failure type="exception" message="Failed: Homepage.clickGo1 is not a function"><![CDATA[TypeError: Homepage.clickGo1 is not a function
+<testsuites disabled="0" errors="0" failures="1" tests="2" time="9.488">
+ <testsuite name="Demo Calculator Tests" timestamp="2019-11-14T16:59:00" hostname="localhost" time="9.488" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="Demo Calculator Tests" name="addition test" time="9.034" />
+  <testcase classname="Demo Calculator Tests" name="Subtraction test" time="0.446">
+   <failure type="exception" message="Failed: Homepage.clickGo122fdfdf is not a function"><![CDATA[TypeError: Homepage.clickGo122fdfdf is not a function
     at UserContext.<anonymous> (C:\projectsprasanna\ProtractorDemo\Tests\Calculator.js:41:18)
     at C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
     at new ManagedPromise (C:\Users\prasannap\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)

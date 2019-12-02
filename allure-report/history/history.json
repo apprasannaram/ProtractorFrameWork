@@ -1,0 +1,41 @@
+{
+  "d4e58a001b3eaa1fbe388f943d2b764d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9359fddf4be0f58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573730940763,
+        "stop" : 1573730949799,
+        "duration" : 9036
+      }
+    } ]
+  },
+  "ff94fc0d7809b07e9b921173df52d119" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd57b9bf6e201a75",
+      "status" : "failed",
+      "statusDetails" : "Failed: Homepage.clickGo122fdfdf is not a function",
+      "time" : {
+        "start" : 1573730949800,
+        "stop" : 1573730950247,
+        "duration" : 447
+      }
+    } ]
+  }
+}
